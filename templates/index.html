@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Testing</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/a0/d8/10/a0d810474c309edd22329b760280a303.jpg');
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+        }
+        
+        h1 {
+            color:black; 
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Welcome to Distributed Load Testing 36!</h1>
+    <form method="post" action="/start_test">
+        <label for="test_type">Choose a testing type:</label>
+        <select id="test_type" name="test_type">
+            <option value="AVALANCHE">AVALANCHE</option>
+            <option value="TSUNAMI">TSUNAMI</option>
+        </select>
+        <button type="submit">Start Load Test</button>
+    </form>
+</body>
+</html>
+
